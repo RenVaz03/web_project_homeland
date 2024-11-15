@@ -1,0 +1,49 @@
+
+.intro{
+    padding-top: 92px;
+    }
+    
+    .intro__title{
+        font-family: 'inter-black';
+        line-height: 58px;
+        width: 830px;
+        max-width: 100%;
+        font-weight: bold;
+        font-size: 54px;
+        text-align: start;
+        margin: auto auto;
+        }
+    
+     .intro__subtitle{ 
+        font-family: 'inter';
+        line-height: 34px;
+        width: 738px;
+        max-width: 100%;
+        font-weight: normal;
+        font-size: 24px;
+        text-align: start;
+        margin: 39.98px auto auto;
+    }
+    
+    .intro__author-name{
+        font-family: 'inter';
+        line-height: 34px;
+        width: 732px;
+        max-width: 100%;
+        font-weight: normal;
+        font-size: 24px;
+        text-align: right;
+        margin: 10px auto auto;
+    
+    }
+    
+    .intro__paragraph{
+        font-family: 'inter';
+        line-height: 163%;
+        width: 722px;
+        max-width: 100%;
+        font-weight: normal;
+        font-size: 16px;
+        text-align: start;
+        margin: 31.99px auto auto;
+    }

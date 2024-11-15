@@ -1,0 +1,33 @@
+.main{
+    padding-top: 91.06px;
+}
+
+.main__title{
+    font-family: 'inter-black';
+    line-height: 100px;
+    width: 720px;
+    max-width: 100%;
+    font-weight: bold;
+    font-size: 96px;
+    text-align: center;
+    margin: auto
+}
+
+.main__subtitle{
+    font-family: 'inter';
+    line-height: 36px;
+    width: 720px;
+    max-width: 100%;
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+    margin: 32px auto 64px;
+}
+
+.main__image{
+    width: 100%;
+    max-width: 984px;
+    margin: auto;
+    display: block;
+    height: auto;
+}
