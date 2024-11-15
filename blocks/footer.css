@@ -10,3 +10,22 @@
     margin: 92px auto auto;
     padding-bottom: 24px;
 }
+
+@media (max-width: 768px) {
+    .footer{
+        font-size: 14px;
+        line-height: 16px;
+        margin: 88px auto auto;
+
+    }
+
+}
+
+@media (max-width: 320px) {
+    .footer{
+        margin: 64px auto auto;
+        font-size: 14px;
+        line-height: 14px;
+    }
+   
+}
