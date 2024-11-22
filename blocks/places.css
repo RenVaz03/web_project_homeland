@@ -1,0 +1,58 @@
+.places{
+
+}
+
+.places__gales{
+
+}
+
+.places__gales-title{
+    font-family: 'inter-black';
+    width: 460px;
+    max-width: 100%;
+    font-weight: bold;
+    font-size: 72px;
+    text-align: start;
+}
+
+.places__gales-image{
+    width: 100%;
+ max-width: 460px;
+}
+
+.places__gales-button{
+    font-family: 'inter';
+    width: 249px;
+    max-width: 100%;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.places__gales-website{
+    font-family: 'inter';
+    width: 85.17px;
+    max-width: 100%;
+    font-weight: normal;
+    font-size: 12px;
+    color: #aaa;
+
+}
+.places__gales-artist{
+    font-family: 'inter';
+    width: 455.53px;
+    max-width: 100%;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 22%;
+}
+
+.places__gales-paragraph{
+    font-family: 'inter';
+    width: 484px;
+    max-width: 100%;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 163%;
+}
