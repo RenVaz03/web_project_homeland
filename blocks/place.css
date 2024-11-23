@@ -1,0 +1,223 @@
+.place {
+    display: grid;
+    grid-template-columns: 460px 1fr;
+    grid-template-rows: 1fr 460px;
+    gap: 40px;
+    margin-bottom: 80px;
+    grid-template-areas:
+      "title website"
+      "image paragraph"
+      "button paragraph";
+  }
+  
+  .place__title {
+    display: flex;
+    align-self: flex-end;
+    max-width: 460px;
+    width: 100%;
+    font-family: "inter-black";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 76px;
+    color: #ffffff;
+    margin-bottom: 0;
+    grid-area: title;
+  }
+  
+  .place__image {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    object-fit: cover;
+    grid-area: image;
+  }
+  
+  .place__image:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0.5;
+  }
+  
+  .place__image_shadow {
+    max-width: 460px;
+    width: 100%;
+    background: #000000;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
+  }
+  
+  .place__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 289px;
+    width: 100%;
+    height: 48px;
+    gap: 10px;
+    background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    grid-area: button;
+    
+  }
+  
+  .place__button:hover {
+    background: linear-gradient(
+      90deg,
+      rgba(2, 120, 254, 0.25) 0%,
+      rgba(0, 58, 123, 0.25) 99.98%
+    );
+  
+    opacity: 0.5;
+  }
+  
+  .place__button-paragraph{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+   
+  .place__website {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    max-width: 456px;
+    width: 100%;
+    grid-area: website;
+    width: 100%;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 12%;
+    color: #aaaaaa;
+    margin: 0;
+  } 
+  
+  .place__artist {
+    max-width: 455.53px;
+    width: 100%;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+    margin: 8px 0 0 0;
+  }
+  
+  .place__paragraph {
+    display: flex;
+    flex-direction: column;
+    max-width: 484px;
+    width: 100%;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+    color: #ffffff;
+    margin: auto;
+    grid-area: paragraph;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .place {
+      display: grid;
+      column-gap: 28px;
+      padding: 0 24px;
+      grid-template-columns: 340px 1fr;
+      grid-template-rows: 1fr 340px;
+    }
+  
+    .place__title {
+      max-width: 340px;
+      font-size: 42px;
+      line-height: 46px;
+    }
+  
+    .place__image {
+      max-width: 340px;
+      width: 100%;
+    }
+  
+    .place__website {
+      max-width: 352px;
+    }
+
+  
+    .place__artist {
+      font-size: 18px;
+      line-height: 22px;
+    }
+  
+    .place__paragraph {
+      font-size: 16px;
+      line-height: 163%;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+
+    .place {
+      display: grid;
+      padding: 0;
+      grid-template-columns: 320px;
+      grid-template-rows: 320px;
+      max-width: 320px;
+      width: 100%;
+      gap: 30px;
+      grid-template-areas: 
+      "title"
+      "website"
+      "image"
+      "paragraph"
+      "button"
+      ;
+    }
+  
+    .place__title {
+      max-width: 288px;
+      font-size: 32px;
+      line-height: 35px;
+      padding: 0 0 30px 16px;
+    }
+  
+    .place__image {
+      max-width: 320px;
+      width: 100%;
+      object-fit: none;
+    }
+  
+    .place__website {
+      max-width: 288px;
+      font-size: 12px;
+      padding: 0 16px ;
+    }
+
+  
+    .place__artist {
+      font-size: 18px;
+      line-height: 22px;
+      word-spacing: 0;
+    }
+  
+    .place__paragraph {
+      font-size: 16px;
+      line-height: 163%;
+      max-width: 288px;
+      padding: 0 16px ;
+    }
+
+    .place__button{
+        width: 100%;
+        max-width: 288px;
+        padding: 0 16px;
+    }
+  }
+  
